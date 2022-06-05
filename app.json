@@ -5,8 +5,8 @@
     "iconFile": "icon.png",
     "author": {
         "name": "Murtaza Patrawala",
-        "homepage": "https://",
-        "support": "www.dummy.com"
+        "homepage": "https://github.com/murtaza98/Instatus-RocketChat-App",
+        "support": "https://github.com/murtaza98/Instatus-RocketChat-App/issues"
     },
     "name": "InStatus Notifier",
     "nameSlug": "instatus",
