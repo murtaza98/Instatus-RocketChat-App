@@ -1,0 +1,16 @@
+{
+    "id": "6acc91d8-f7db-4c1f-91df-7fd8f84d716c",
+    "version": "1.0.0",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Murtaza Patrawala",
+        "homepage": "https://",
+        "support": "www.dummy.com"
+    },
+    "name": "InStatus Notifier",
+    "nameSlug": "instatus",
+    "classFile": "InStatusApp.ts",
+    "description": "Get alerts from InStatus. Run `/instatus` command on any channel where you'd like to get alerts and then follow the instructions.",
+    "implements": []
+}
