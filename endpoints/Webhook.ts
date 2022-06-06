@@ -48,13 +48,13 @@ export class Webhook extends ApiEndpoint {
             })
         }
 
-        const { incident, incident: { name } } = notification;
+        const { incident } = notification;
         if (!incident) {
             // Ignore non-incident notification
             return this.success();
         }
 
-        const { incident_updates, affected_components, url: incidentUrl } = incident;
+        const { incident_updates, affected_components, url: incidentUrl, name } = incident;
 
         if (!incident_updates || !incident_updates.length) {
             return this.json({
